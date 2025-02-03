@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="pineapple" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 111.19 210.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #c9aa23;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fcee21;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #f7cf2a;
+      }
+
+      .cls-4 {
+        fill: url(#Pineapple);
+      }
+
+      .cls-5 {
+        fill: #61bc50;
+      }
+    </style>
+    <pattern id="Pineapple" x="0" y="0" width="57.6" height="57.6" patternTransform="translate(-301.18 -257.92)" patternUnits="userSpaceOnUse" viewBox="0 0 57.6 57.6">
+      <g>
+        <rect class="cls-1" y="0" width="57.6" height="57.6"/>
+        <polygon class="cls-2" points="43.53 66.38 72.02 48.82 100.69 66.38 72.02 83.95 43.53 66.38"/>
+        <g>
+          <polygon class="cls-2" points="-14.07 66.38 14.42 48.82 43.09 66.38 14.42 83.95 -14.07 66.38"/>
+          <polygon class="cls-2" points="14.51 48.82 42.99 31.25 71.66 48.82 42.99 66.38 14.51 48.82"/>
+        </g>
+        <polygon class="cls-2" points="-43.09 48.82 -14.61 31.25 14.06 48.82 -14.61 66.38 -43.09 48.82"/>
+        <polygon class="cls-2" points="43.53 37.58 72.02 20.02 100.69 37.58 72.02 55.15 43.53 37.58"/>
+        <g>
+          <polygon class="cls-2" points="-14.07 37.58 14.42 20.02 43.09 37.58 14.42 55.15 -14.07 37.58"/>
+          <polygon class="cls-2" points="14.51 20.02 42.99 2.45 71.66 20.02 42.99 37.58 14.51 20.02"/>
+        </g>
+        <polygon class="cls-2" points="-43.09 20.02 -14.61 2.45 14.06 20.02 -14.61 37.58 -43.09 20.02"/>
+        <polygon class="cls-2" points="43.53 8.78 72.02 -8.78 100.69 8.78 72.02 26.35 43.53 8.78"/>
+        <g>
+          <polygon class="cls-2" points="-14.07 8.78 14.42 -8.78 43.09 8.78 14.42 26.35 -14.07 8.78"/>
+          <polygon class="cls-2" points="14.51 -8.78 42.99 -26.35 71.66 -8.78 42.99 8.78 14.51 -8.78"/>
+        </g>
+        <polygon class="cls-2" points="-43.09 -8.78 -14.61 -26.35 14.06 -8.78 -14.61 8.78 -43.09 -8.78"/>
+      </g>
+    </pattern>
+  </defs>
+  <g id="leaves">
+    <path class="cls-5" d="M55.6,44.63S18.99,28.86,6.38,32.5s24.61,65.84,24.61,65.84l16.86-23.25,7.75-30.45Z"/>
+    <path class="cls-5" d="M55.6,44.63s36.61-15.78,49.21-12.13-24.61,65.84-24.61,65.84l-16.86-23.25-7.75-30.45Z"/>
+    <path class="cls-5" d="M76.66,52.48c0,20.32-9.43,36.79-21.07,36.79s-21.07-16.47-21.07-36.79S55.6,0,55.6,0c0,0,21.07,32.16,21.07,52.48Z"/>
+  </g>
+  <path id="normal_body" class="cls-3" d="M110.69,140.38c0,38.65,0,69.98-55.1,69.98S.5,179.03.5,140.38s24.67-69.98,55.1-69.98,55.1,31.33,55.1,69.98Z"/>
+  <path id="patterned_body" class="cls-4" d="M110.69,140.38c0,38.65,0,69.98-55.1,69.98S.5,179.03.5,140.38s24.67-69.98,55.1-69.98,55.1,31.33,55.1,69.98Z"/>
+</svg>
