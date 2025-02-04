@@ -17,6 +17,19 @@
       .cls-4 {
         fill: #39b54a;
       }
+
+      #orange:hover {
+        cursor: pointer;
+      }
+
+      #stem {
+        transition: all 1s ease;
+      }
+
+      #orange:hover #stem {
+        transform: translate(100px, -100px);
+      }
+
     </style>
   </defs>
   <g id="stem">

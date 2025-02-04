@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 199.14 311.41">
+<svg id="packet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 199.14 311.41">
   <defs>
     <style>
       .cls-1 {
@@ -36,6 +36,23 @@
       .cls-6 {
         letter-spacing: -.02em;
       }
+
+      #packet:hover {
+        cursor: pointer;
+      }
+
+      #top {
+        transition: all 0.5s ease;
+        transform-origin: 50%;
+      }
+
+      #packet:hover #top {
+        transform: rotate(-5deg);
+      }
+
+      #packet:hover #flavour {
+        font-family: helvetica;
+      }
     </style>
     <linearGradient id="linear-gradient" x1="68.42" y1="78.18" x2="154.34" y2="150.26" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#8a1b54"/>
@@ -43,7 +60,7 @@
       <stop offset="1" stop-color="#e8198a"/>
     </linearGradient>
   </defs>
-  <path id="body" class="cls-1" d="M163.44,310.91H35.7c-19.44,0-35.2-15.76-35.2-35.2V35.7C.5,16.26,16.26.5,35.7.5h127.74c19.44,0,35.2,15.76,35.2,35.2v240.01c0,19.44-15.76,35.2-35.2,35.2Z"/>
+  <path id="body" class="cls-1" d="M.5,35.7v240.01c0,19.44,15.76,35.2,35.2,35.2h127.74c19.44,0,35.2-15.76,35.2-35.2V35.7H.5Z"/>
   <path id="top" class="cls-2" d="M198.64,35.7c0-19.44-15.76-35.2-35.2-35.2H35.7C16.26.5.5,16.26.5,35.7h198.14Z"/>
   <text id="wordmark" class="cls-4" transform="translate(13.07 207.61)"><tspan x="0" y="0">Quat</tspan><tspan class="cls-6" x="122.38" y="0">r</tspan><tspan x="140.46" y="0">o</tspan></text>
   <text id="flavour" class="cls-5" transform="translate(67.66 230.78)"><tspan x="0" y="0">Grapefruit</tspan></text>
