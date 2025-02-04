@@ -29,6 +29,19 @@
       .cls-5 {
         fill: #61bc50;
       }
+
+      #patterned_body {
+        opacity: 0%;
+        transition: all 0.7s ease;
+      }
+
+      #pineapple:hover {
+        cursor: pointer;
+      }
+
+      #pineapple:hover #patterned_body {
+        opacity: 100%;
+      }
     </style>
     <pattern id="Pineapple" x="0" y="0" width="57.6" height="57.6" patternTransform="translate(-317.36 -289.92)" patternUnits="userSpaceOnUse" viewBox="0 0 57.6 57.6">
       <g>

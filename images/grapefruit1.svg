@@ -9,6 +9,19 @@
       .cls-2 {
         fill: #e9168b;
       }
+
+      #grapefruit:hover {
+        cursor: pointer;
+      }
+
+      #inside {
+        transition: all ease 0.7s;
+        transform-origin: 50%;
+      }
+
+      #grapefruit:hover #inside {
+        transform: rotate(360deg)
+      }
     </style>
   </defs>
   <circle id="base" class="cls-1" cx="73.43" cy="73.43" r="73.43"/>

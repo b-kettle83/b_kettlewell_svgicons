@@ -9,6 +9,26 @@
       .cls-2 {
         fill: #ed1c24;
       }
+
+      #passionfruit:hover {
+        cursor: pointer;
+      }
+
+      .cls-1 {
+        transition: all 0.5s ease;
+      }
+
+      .cls-2 {
+        transition: all 0.5s ease;
+      }
+
+      #passionfruit:hover .cls-1 {
+        fill: #ae0c7d;
+      }
+
+      #passionfruit:hover .cls-2 {
+        fill: #eb068c;
+      }
     </style>
   </defs>
   <rect id="stem" class="cls-1" x="48.43" y="-1.15" width="11.26" height="52.11" rx="5.47" ry="5.47" transform="translate(11.55 -16.76) rotate(19.7)"/>
