@@ -30,6 +30,15 @@
         fill: #eb068c;
       }
     </style>
+    <script>
+      const passionfruity = document.querySelector('#passionfruit');
+
+      function flavourLogId() {
+        console.log("Flavour: " + this.id);
+      }
+
+      passionfruity.addEventListener('click', flavourLogId);
+    </script>
   </defs>
   <rect id="stem" class="cls-1" x="48.43" y="-1.15" width="11.26" height="52.11" rx="5.47" ry="5.47" transform="translate(11.55 -16.76) rotate(19.7)"/>
   <path id="body" class="cls-2" d="M103.74,85.01c0,34.02-23.22,61.6-51.87,61.6S0,119.03,0,85.01c0-8.16,7.85-12.62,10.28-19.75,7.69-22.59,19.82-41.85,41.59-41.85,10.05,0,17,7.91,24.95,13.78,14.71,10.87,26.92,25.73,26.92,47.82Z"/>

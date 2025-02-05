@@ -23,6 +23,15 @@
         transform: rotate(360deg)
       }
     </style>
+    <script>
+      const grapefruity = document.querySelector('#grapefruit');
+
+      function flavourLogId() {
+        console.log("Flavour: " + this.id);
+      }
+
+      grapefruity.addEventListener('click', flavourLogId);
+    </script>
   </defs>
   <circle id="base" class="cls-1" cx="73.43" cy="73.43" r="73.43"/>
   <g id="inside">

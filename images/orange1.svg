@@ -31,6 +31,15 @@
       }
 
     </style>
+    <script>
+      const orangey = document.querySelector('#orange');
+
+      function flavourLogId() {
+        console.log("Flavour: " + this.id);
+      }
+
+      orangey.addEventListener('click', flavourLogId);
+    </script>
   </defs>
   <g id="stem">
     <path class="cls-4" d="M75.77,3.17c2.66,5.19-7.61,15.75-12.8,18.41s-8.74-.84-11.39-6.03-3.41-10.11,1.78-12.77,19.76-4.8,22.42.39Z"/>

@@ -54,6 +54,15 @@
         font-family: helvetica;
       }
     </style>
+    <script>
+      const quatroPacket = document.querySelector('#packet');
+
+      function flavourLogId() {
+        console.log("Brand Icon: " + this.id);
+      }
+
+      quatroPacket.addEventListener('click', flavourLogId);
+    </script>
     <linearGradient id="linear-gradient" x1="68.42" y1="78.18" x2="154.34" y2="150.26" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#8a1b54"/>
       <stop offset=".5" stop-color="#e8198a"/>
