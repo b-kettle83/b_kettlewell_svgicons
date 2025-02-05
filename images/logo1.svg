@@ -66,25 +66,30 @@
         fill: #39b54a;
       }
       
+      /* Turn cursor into pointer when hovering */
       #logo_mix:hover {
         cursor:pointer;
       }
 
+      /* Make transition and set transform origin to center for the outer fruits */
       #fruits {
         transition: all 0.5s ease;
         transform-origin: 50%;
       }
 
+      /* When the icon is hovered over, scale the fruits to 0 and fade them out with opacity */
       #logo_mix:hover #fruits {
         transform: scale(0);
         opacity: 0%;
       }
 
+      /* Make transition and set the grayscale to max for the main logo */
       #logo {
         transition: all 0.7s ease;
         filter: grayscale(100);
       }
 
+      /* When the icon is hovered over, raise the logo a little and add the colour back */
       #logo_mix:hover #logo {
         transform: translateY(-50px);
         filter: grayscale(0);

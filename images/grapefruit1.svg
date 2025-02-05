@@ -10,26 +10,33 @@
         fill: #e9168b;
       }
 
+      /* Turn cursor into pointer when hovering */
       #grapefruit:hover {
         cursor: pointer;
       }
 
+      /* Make transition and set transform origin to center for inside triangles */
       #inside {
         transition: all ease 0.7s;
         transform-origin: 50%;
       }
 
+      /* When grapefruit is hovered over, rotate the inside triangles 360degrees */
       #grapefruit:hover #inside {
         transform: rotate(360deg)
       }
     </style>
     <script>
+      // Create a constant variable called grapefruity and search the DOM for the id
+      // grapefruit, then hold that value in grapefruity 
       const grapefruity = document.querySelector('#grapefruit');
 
+      // Create a function that when called will log "Flavour: " and the id of the current id
       function flavourLogId() {
         console.log("Flavour: " + this.id);
       }
 
+      // Wait for the user to click on grapefruity(element with ID "grapefruit"), and run the function
       grapefruity.addEventListener('click', flavourLogId);
     </script>
   </defs>

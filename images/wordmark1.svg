@@ -6,18 +6,22 @@
         fill: #FFFFFF;
       }
 
+      /* Turn cursor into pointer when hovering */
       #wordmark:hover {
         cursor: pointer;
       }
 
+      /* Make the transition for the path class */
       .cls-1 {
         transition: all 0.5s ease;
       }
 
+      /* When the icon is hovered over, change the class fill to grey */
       #wordmark:hover .cls-1 {
         fill: #9FA1A4;
       }
 
+      /* When the icon is hovered over, move each letter slightly towards the center of the icon */
       #wordmark:hover #letter1 {
         transform: translateX(18px);
       }

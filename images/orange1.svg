@@ -18,14 +18,17 @@
         fill: #39b54a;
       }
 
+      /* Turn cursor into pointer when hovering */
       #orange:hover {
         cursor: pointer;
       }
 
+      /* Make transition for the stem */
       #stem {
         transition: all 1s ease;
       }
 
+      /* When the icon is hovered over, make the stem move up and right */
       #orange:hover #stem {
         transform: translate(100px, -100px);
       }
