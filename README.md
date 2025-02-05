@@ -1,4 +1,4 @@
-# b_kettlewell_svgicons
+# Quatro's New Look
 This repo is for my Multimedia Authoring class' SVG icon assignment, focusing on using css to interact with specific 
 elements of SVGs, as well as using JavaScript variables, functions, and event listeners to log IDs to the console.
 
