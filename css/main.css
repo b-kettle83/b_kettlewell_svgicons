@@ -1,8 +1,12 @@
+/* General page styles */
+
 body {
     background-color: #8C0051;
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* Styles for h2, divs, and the flavours section */
 
 h2 {
     text-align: center;
@@ -11,9 +15,6 @@ h2 {
 
 div {
     align-content: center;
-}
-
-div p {
     text-align: center;
 }
 

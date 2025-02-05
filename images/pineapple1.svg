@@ -30,15 +30,18 @@
         fill: #61bc50;
       }
 
+      /* Turn cursor into pointer when hovering */
+      #pineapple:hover {
+        cursor: pointer;
+      }
+
+      /* Make transition and set opacity to 0 for the patterned version of the body */
       #patterned_body {
         opacity: 0%;
         transition: all 0.7s ease;
       }
 
-      #pineapple:hover {
-        cursor: pointer;
-      }
-
+      /* When the icon is hovered over, make the patterned version of the body appear */
       #pineapple:hover #patterned_body {
         opacity: 100%;
       }

@@ -37,19 +37,23 @@
         letter-spacing: -.02em;
       }
 
+      /* Turn cursor into pointer when hovering */
       #packet:hover {
         cursor: pointer;
       }
 
+      /* Make transition and set transform origin to center for the top of the packet */
       #top {
         transition: all 0.5s ease;
         transform-origin: 50%;
       }
 
+      /* When the icon is hovered over, slightly rotate the top section */
       #packet:hover #top {
         transform: rotate(-5deg);
       }
 
+      /* When the packet is hovered over, change the font of the flavour text */
       #packet:hover #flavour {
         font-family: helvetica;
       }

@@ -10,10 +10,12 @@
         fill: #ed1c24;
       }
 
+      /* Turn cursor into pointer when hovering */
       #passionfruit:hover {
         cursor: pointer;
       }
 
+      /* Make transitions for each of the path classes */
       .cls-1 {
         transition: all 0.5s ease;
       }
@@ -22,6 +24,7 @@
         transition: all 0.5s ease;
       }
 
+      /* When the icon is hovered over, change the colours of the icon to purple/pink */
       #passionfruit:hover .cls-1 {
         fill: #ae0c7d;
       }
